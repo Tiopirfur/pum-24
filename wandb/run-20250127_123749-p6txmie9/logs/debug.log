@@ -1,0 +1,64 @@
+2025-01-27 12:37:49,484 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2025-01-27 12:37:49,484 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Configure stats pid to 456964
+2025-01-27 12:37:49,484 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Loading settings from C:\Users\admin\.config\wandb\settings
+2025-01-27 12:37:49,484 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Loading settings from C:\Users\admin\Documents\GitHub\pum-24\wandb\settings
+2025-01-27 12:37:49,499 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-01-27 12:37:49,499 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-01-27 12:37:49,499 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Applying login settings: {'anonymous': '876dfec77c2e4a68b24ec9499a55665f94652f25'}
+2025-01-27 12:37:49,499 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Applying login settings: {'anonymous': '876dfec77c2e4a68b24ec9499a55665f94652f25'}
+2025-01-27 12:37:49,499 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Applying login settings: {'anonymous': '876dfec77c2e4a68b24ec9499a55665f94652f25'}
+2025-01-27 12:37:49,499 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-01-27 12:37:49,499 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Applying login settings: {'anonymous': '876dfec77c2e4a68b24ec9499a55665f94652f25'}
+2025-01-27 12:37:49,499 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2025-01-27 12:37:49,499 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2025-01-27 12:37:49,499 INFO    MainThread:456964 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-01-27 12:37:49,499 ERROR   MainThread:456964 [wandb_setup.py:_flush():81] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\admin\miniconda3\envs\pum\lib\site-packages\IPython\core\interactiveshell.py", line 3550, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_456964\1927294223.py", line 47, in <module>
+    train(model, train_loader, test_loader)
+  File "C:\Users\admin\AppData\Local\Temp\ipykernel_456964\1927294223.py", line 7, in train
+    wandb.init(project='mnist-classifier', config={'learning_rate': 0.01, 'layer_1_size': 128, 'layer_2_size': 64, 'batch_size': 32})
+  File "C:\Users\admin\miniconda3\envs\pum\lib\site-packages\wandb\sdk\wandb_init.py", line 1270, in init
+    wandb._sentry.reraise(e)
+  File "C:\Users\admin\miniconda3\envs\pum\lib\site-packages\wandb\analytics\sentry.py", line 161, in reraise
+    raise exc.with_traceback(sys.exc_info()[2])
+  File "C:\Users\admin\miniconda3\envs\pum\lib\site-packages\wandb\sdk\wandb_init.py", line 1255, in init
+    wi.setup(kwargs)
+  File "C:\Users\admin\miniconda3\envs\pum\lib\site-packages\wandb\sdk\wandb_init.py", line 304, in setup
+    wandb_login._login(
+  File "C:\Users\admin\miniconda3\envs\pum\lib\site-packages\wandb\sdk\wandb_login.py", line 347, in _login
+    wlogin.prompt_api_key()
+  File "C:\Users\admin\miniconda3\envs\pum\lib\site-packages\wandb\sdk\wandb_login.py", line 274, in prompt_api_key
+    key, status = self._prompt_api_key()
+  File "C:\Users\admin\miniconda3\envs\pum\lib\site-packages\wandb\sdk\wandb_login.py", line 253, in _prompt_api_key
+    key = apikey.prompt_api_key(
+  File "C:\Users\admin\miniconda3\envs\pum\lib\site-packages\wandb\sdk\lib\apikey.py", line 164, in prompt_api_key
+    key = input_callback(api_ask).strip()
+  File "C:\Users\admin\miniconda3\envs\pum\lib\site-packages\click\termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+  File "C:\Users\admin\miniconda3\envs\pum\lib\site-packages\click\termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+2025-01-27 12:37:49,505 INFO    MainThread:456964 [wandb_init.py:_log_setup():533] Logging user logs to C:\Users\admin\Documents\GitHub\pum-24\wandb\run-20250127_123749-p6txmie9\logs\debug.log
+2025-01-27 12:37:49,505 INFO    MainThread:456964 [wandb_init.py:_log_setup():534] Logging internal logs to C:\Users\admin\Documents\GitHub\pum-24\wandb\run-20250127_123749-p6txmie9\logs\debug-internal.log
+2025-01-27 12:37:49,505 INFO    MainThread:456964 [wandb_init.py:_jupyter_setup():479] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000027AC248ED00>
+2025-01-27 12:37:49,505 INFO    MainThread:456964 [wandb_init.py:init():619] calling init triggers
+2025-01-27 12:37:49,505 INFO    MainThread:456964 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'layer_1_size': 128, 'layer_2_size': 64, 'batch_size': 32}
+2025-01-27 12:37:49,505 INFO    MainThread:456964 [wandb_init.py:init():669] starting backend
+2025-01-27 12:37:49,505 INFO    MainThread:456964 [wandb_init.py:init():673] sending inform_init request
+2025-01-27 12:37:49,505 INFO    MainThread:456964 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-01-27 12:37:49,519 INFO    MainThread:456964 [wandb_init.py:init():686] backend started and connected
+2025-01-27 12:37:49,545 INFO    MainThread:456964 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2025-01-27 12:37:49,547 INFO    MainThread:456964 [wandb_init.py:init():781] updated telemetry
+2025-01-27 12:37:49,548 INFO    MainThread:456964 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2025-01-27 12:37:51,011 INFO    MainThread:456964 [wandb_init.py:init():867] starting run threads in backend
+2025-01-27 12:37:52,089 INFO    MainThread:456964 [wandb_run.py:_console_start():2456] atexit reg
+2025-01-27 12:37:52,089 INFO    MainThread:456964 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2025-01-27 12:37:52,089 INFO    MainThread:456964 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2025-01-27 12:37:52,090 INFO    MainThread:456964 [wandb_run.py:_redirect():2395] Redirects installed.
+2025-01-27 12:37:52,092 INFO    MainThread:456964 [wandb_init.py:init():911] run started, returning control to user process
+2025-01-27 12:53:58,465 INFO    MainThread:456964 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-01-27 12:53:58,465 INFO    MainThread:456964 [wandb_init.py:_pause_backend():444] pausing backend

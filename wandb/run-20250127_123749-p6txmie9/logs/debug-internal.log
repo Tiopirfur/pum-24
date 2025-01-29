@@ -1,0 +1,9 @@
+{"time":"2025-01-27T12:37:49.5690564+01:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-01-27T12:37:49.5690564+01:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\admin\\Documents\\GitHub\\pum-24\\wandb\\run-20250127_123749-p6txmie9\\logs\\debug-core.log"}
+{"time":"2025-01-27T12:37:50.2384382+01:00","level":"INFO","msg":"created new stream","id":"p6txmie9"}
+{"time":"2025-01-27T12:37:50.2390407+01:00","level":"INFO","msg":"stream: started","id":"p6txmie9"}
+{"time":"2025-01-27T12:37:50.2390407+01:00","level":"INFO","msg":"sender: started","stream_id":"p6txmie9"}
+{"time":"2025-01-27T12:37:50.2390407+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"p6txmie9"}
+{"time":"2025-01-27T12:37:50.2395991+01:00","level":"INFO","msg":"handler: started","stream_id":"p6txmie9"}
+{"time":"2025-01-27T12:37:51.0462794+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-27T12:53:58.4682939+01:00","level":"INFO","msg":"Pausing system monitor"}
