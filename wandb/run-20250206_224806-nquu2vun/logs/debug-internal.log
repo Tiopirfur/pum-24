@@ -1,0 +1,20 @@
+{"time":"2025-02-06T22:48:06.8474177+01:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-02-06T22:48:06.8474177+01:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\admin\\Documents\\GitHub\\pum-24\\wandb\\run-20250206_224806-nquu2vun\\logs\\debug-core.log"}
+{"time":"2025-02-06T22:48:06.9896387+01:00","level":"INFO","msg":"created new stream","id":"nquu2vun"}
+{"time":"2025-02-06T22:48:06.9896387+01:00","level":"INFO","msg":"stream: started","id":"nquu2vun"}
+{"time":"2025-02-06T22:48:06.9896387+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nquu2vun"}
+{"time":"2025-02-06T22:48:06.9896387+01:00","level":"INFO","msg":"handler: started","stream_id":"nquu2vun"}
+{"time":"2025-02-06T22:48:06.9896387+01:00","level":"INFO","msg":"sender: started","stream_id":"nquu2vun"}
+{"time":"2025-02-06T22:48:07.3368871+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T23:10:44.6402773+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T23:10:44.6446891+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T23:10:44.9660111+01:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-02-06T23:10:44.9660554+01:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-02-06T23:10:44.9660554+01:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-02-06T23:10:45.6556841+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.6297569,"progress":"160B/160B"},{"desc":"uploading config.yaml","runtime_seconds":0.4844193,"progress":"595B/595B"},{"desc":"uploading output.log","runtime_seconds":0.4844193,"progress":"3.8KB/3.8KB"}],"total_operations":3}}
+{"time":"2025-02-06T23:10:45.9186456+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T23:10:47.2356896+01:00","level":"INFO","msg":"stream: closing","id":"nquu2vun"}
+{"time":"2025-02-06T23:10:47.2413664+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nquu2vun"}
+{"time":"2025-02-06T23:10:47.2418987+01:00","level":"INFO","msg":"sender: closed","stream_id":"nquu2vun"}
+{"time":"2025-02-06T23:10:47.2426073+01:00","level":"INFO","msg":"handler: closed","stream_id":"nquu2vun"}
+{"time":"2025-02-06T23:10:47.2426073+01:00","level":"INFO","msg":"stream: closed","id":"nquu2vun"}

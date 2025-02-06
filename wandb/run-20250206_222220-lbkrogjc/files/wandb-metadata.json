@@ -1,0 +1,27 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "3.9.20",
+  "startedAt": "2025-02-06T21:22:20.763453Z",
+  "program": "lab6.ipynb",
+  "email": "w.radzik.wr@gmail.com",
+  "root": "C:\\Users\\admin\\Documents\\GitHub\\pum-24",
+  "host": "DESKTOP-E1U9FGA",
+  "username": "admin",
+  "executable": "C:\\Users\\admin\\miniconda3\\envs\\pum\\python.exe",
+  "codePathLocal": "lab6.ipynb",
+  "cpu_count": 2,
+  "cpu_count_logical": 4,
+  "disk": {
+    "/": {
+      "total": "255460175872",
+      "used": "211877101568"
+    }
+  },
+  "memory": {
+    "total": "8267362304"
+  },
+  "cpu": {
+    "count": 2,
+    "countLogical": 4
+  }
+}

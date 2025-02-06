@@ -1,0 +1,10 @@
+torch.Size([32, 784])
+X is a tensor of shape: torch.Size([32, 784])
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.

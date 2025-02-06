@@ -36,9 +36,9 @@ with open('data/featurizer.pkl', 'rb') as f:
     
 st.title('Solvatation Predictor')
 
-st.write('Solvatation Predictor is a tool for prediction of solubility based on SMILES code')
+st.write("Solvatation Predictor is a tool for prediction of molecule's solubility in water (LogS) based on their SMILES code")
 
-smileses = st.text_area('Insert 1 or multiple SMILES codes (remember 1 SMILES in 1 row!', '')
+smileses = st.text_area('Insert 1 or multiple SMILES codes (remember: 1 row - 1 SMILES code!)', '')
 
 if st.button('Calculate.'):
     if not smileses:
@@ -47,4 +47,4 @@ if st.button('Calculate.'):
         #SMILES = pd.Series(smileses.split())
         X = featurizer.featurize(smileses.split())
         y_pred = svr.predict(X)
-        st.write(pd.DataFrame({'SMILES':smileses, 'Solubility':y_pred}))
+        st.write(pd.Series(data=y_pred, index=pd.Index(data=smileses.split(), name='SMILES'), name='Solubility')) #{'SMILES':smileses.split(), 'Solubility':y_pred}

@@ -1,0 +1,9 @@
+{"time":"2025-02-05T14:18:04.9281242+01:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-02-05T14:18:04.9281242+01:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\admin\\Documents\\GitHub\\pum-24\\wandb\\run-20250205_141802-rr1ogw5e\\logs\\debug-core.log"}
+{"time":"2025-02-05T14:18:05.0758192+01:00","level":"INFO","msg":"created new stream","id":"rr1ogw5e"}
+{"time":"2025-02-05T14:18:05.0758192+01:00","level":"INFO","msg":"stream: started","id":"rr1ogw5e"}
+{"time":"2025-02-05T14:18:05.0758192+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"rr1ogw5e"}
+{"time":"2025-02-05T14:18:05.0758192+01:00","level":"INFO","msg":"sender: started","stream_id":"rr1ogw5e"}
+{"time":"2025-02-05T14:18:05.0758192+01:00","level":"INFO","msg":"handler: started","stream_id":"rr1ogw5e"}
+{"time":"2025-02-05T14:18:05.4063169+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T14:28:39.0925563+01:00","level":"INFO","msg":"Pausing system monitor"}
